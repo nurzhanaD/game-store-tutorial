@@ -15,13 +15,8 @@ if (!game) return null;
         <h1 className="game-page__title">{game.title}</h1>
         <div className="game-page__content">
           <div className="game-page__left">
-            <iframe 
-            width="90%" 
-            height="400px" 
-            src={game.video} 
-            title="Youtube Video Player"
-
-            ></iframe>
+            <iframe src={game.video} 
+            title="Youtube Video Player"></iframe>
           </div>
           <div className="game-page__right">
             <GameCover image={game.image}/>

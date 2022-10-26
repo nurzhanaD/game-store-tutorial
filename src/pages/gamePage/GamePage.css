@@ -15,3 +15,31 @@
     justify-content: flex-end;
     margin-top: 20px;
 }
+
+iframe {
+    width: 90%;
+    height: 400px;
+}
+
+@media screen and (min-height: 414px) {
+    .game-page__content {
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    iframe {
+        width: 100%;
+        height: 200px;
+    }
+
+    .game-page__left {
+        width: 350px;
+    }
+
+    .game-page__right {
+        width: 350px;
+    }
+}
