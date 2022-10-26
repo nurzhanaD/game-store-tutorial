@@ -21,7 +21,7 @@ iframe {
     height: 400px;
 }
 
-@media screen and (min-height: 414px) {
+@media screen and (max-width: 414px) {
     .game-page__content {
         height: 700px;
         display: flex;
